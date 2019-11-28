@@ -1,4 +1,6 @@
-# sistema_django
+# Sistema Django
+
+Teste para criação de um sistema django.
 
 Criando um projeto em Django
 
@@ -25,13 +27,20 @@ $ source .venv/bin/activate
 
 ```
 
-4 - Rode as migrações:
+4 - Crie as migrações:
+
+```
+(.venv)$ python manage.py makemigrations
+
+```
+
+5 - Rode as migrações:
 
 ```
 (.venv)$ python manage.py migrate
 
 ```
-5 - Para rodar o projeto, execute o comando abaixo e acesse o ip e porta informados:
+6 - Para rodar o projeto, execute o comando abaixo e acesse o ip e porta informados:
 
 ```
 (.venv)$  python manage.py runserver
