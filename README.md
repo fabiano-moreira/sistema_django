@@ -9,7 +9,8 @@ git clone git@github.com:fabiano-moreira/sistema_django.git
 
 ```
 
-2 - Crie um ambiente virtual para instalar os pacotes e não misturar com a estrutura do seu sistema* Ative o virtualenv;
+2 - Crie um ambiente virtual para instalar os pacotes e não misturar com a estrutura do seu sistema.
+Em seguida, ative o virtualenv;
 
 ```
 $ cd sistema_django
