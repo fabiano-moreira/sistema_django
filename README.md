@@ -31,13 +31,7 @@ $ source .venv/bin/activate
 (.venv)$ python manage.py migrate
 
 ```
-5 - Crie um usuário administrador para o Django:
-
-```
-(.venv)$ python manage.py createsuperuser
-```
-
-6 - Para rodar o projeto, execute o comando abaixo e acesse o ip e porta informados:
+5 - Para rodar o projeto, execute o comando abaixo e acesse o ip e porta informados:
 
 ```
 (.venv)$  python manage.py runserver
